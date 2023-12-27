@@ -134,6 +134,7 @@
     box-shadow: var(--box-shadow);
     text-align: center;
     width: 400px;
+    border-radius: 5px;
 }
 
 .container .profile img {
@@ -163,3 +164,59 @@
 .container .profile p a:hover{
     text-decoration: underline;
 }
+
+.update-profile {
+    min-height: 100vh;
+    background-color: var(--light-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.update-profile form {
+    padding: 20px;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    width: 700px;
+    border-radius: 5px;
+}
+
+.update-profile form img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.update-profile form .flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 15px
+}
+
+.update-profile form .flex .inputBox {
+    width: 49%
+}
+
+.update-profile form .flex .inputBox span {
+    text-align: left;
+    display: block;
+    margin-top: 15px;
+    font-size: 17px;
+    color: var(--black)
+}
+
+.update-profile form .flex .inputBox .box {
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 14px;
+    background-color: var(--light-bg);
+    font-size: 17px;
+    color: var(--black);
+    margin-top: 10px;
+}
+
