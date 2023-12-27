@@ -118,3 +118,28 @@
 .form-container form p a:hover {
     text-decoration: underline;
 }
+
+.container {
+    min-height: 100vh;
+    background-color: var(--light-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container .profile {
+    padding: 20px;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    width: 400px;
+}
+
+.container .profile img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
