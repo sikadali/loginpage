@@ -8,6 +8,12 @@ if (!isset($user_id)) {
     header('Location:login.php');
 }
 
+if (isset($_GET['logout'])) {
+    unset($user_id);
+    session_destroy();
+    header('location:login.php');
+}
+
 ?>
 
 <!DOCTYPE html>
