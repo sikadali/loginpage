@@ -60,6 +60,17 @@
     background-color: var(--dark-red);
 }
 
+.message {
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--red);
+    color: var(--white);
+    font-size: 20px;
+}
+
 .form-container {
     min-height: 100vh;
     background-color: var(--light-bg);
