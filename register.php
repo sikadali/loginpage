@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
         $message[] = 'user already exists';
     } else {
         if ($pass != $cpass) {
-            $message[] = 'confirm password mot matched';
+            $message[] = 'confirm password not matched';
         } elseif ($image_size > 2000000) {
             $message[] = 'image size is too large!';
         } else {
